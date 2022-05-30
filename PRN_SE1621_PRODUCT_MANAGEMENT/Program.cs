@@ -12,9 +12,14 @@ public class Program
         p.UnitPrice = 1500;
         p.StartDate = DateTime.Now;//current date
 
+        ProductManagement productManagement = new ProductManagement();
+        productManagement.Add(p);
+        productManagement.Add(new Product(2, "Macbook Pro 12", "Macbook manh nhat nam 2022", 2500, new DateTime(year: 2022, month: 5, day: 23)));
+
+        productManagement.Add(new Product(3, "RAM 1TB", "Ram manh nhat 2021", 500, new DateTime(year: 2021, month: 5, day: 23)));
 
 
-        WriteLine(p);
+        productManagement.Display();
         ReadLine(); 
     }
 }
