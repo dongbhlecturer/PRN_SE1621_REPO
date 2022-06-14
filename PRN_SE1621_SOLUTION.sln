@@ -19,7 +19,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRN_SE1621_THREADING", "PRN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRN_SE1621_FILESTREAM", "PRN_SE1621_FILESTREAM\PRN_SE1621_FILESTREAM.csproj", "{38B73141-CAEC-4CF7-80D3-A5FCF8A7F213}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PRN_SE1621_WinFormsApp", "PRN_SE1621_WinFormsApp\PRN_SE1621_WinFormsApp.csproj", "{DA12B412-B505-4C4D-8440-286877825D4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PRN_SE1621_WinFormsApp", "PRN_SE1621_WinFormsApp\PRN_SE1621_WinFormsApp.csproj", "{DA12B412-B505-4C4D-8440-286877825D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProviderFactoryModel", "DemoProviderFactoryModel\DemoProviderFactoryModel.csproj", "{B6B6AA09-5FB7-4561-8DBD-3CC4F1B0F710}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{DA12B412-B505-4C4D-8440-286877825D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA12B412-B505-4C4D-8440-286877825D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA12B412-B505-4C4D-8440-286877825D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6B6AA09-5FB7-4561-8DBD-3CC4F1B0F710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6B6AA09-5FB7-4561-8DBD-3CC4F1B0F710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6B6AA09-5FB7-4561-8DBD-3CC4F1B0F710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6B6AA09-5FB7-4561-8DBD-3CC4F1B0F710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
